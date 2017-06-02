@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Quickstart pack</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+        <link href="style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+		<script src="js/azax_jquery_main.js" type="text/javascript"></script>
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(window).load(function() {
+	$('#slider').nivoSlider({
+		effect:'random',
+		slices:15,
+		animSpeed:500,
+		pauseTime:2000,
+		startSlide:0, //Set starting Slide (0 index)
+		directionNav:false,
+		directionNavHide:false, //Only show on hover
+		controlNav:false, //1,2,3...
+		controlNavThumbs:false, //Use thumbnails for Control Nav
+		pauseOnHover:true, //Stop animation while hovering
+		manualAdvance:false, //Force manual transitions
+		captionOpacity:0.8, //Universal caption opacity
+		beforeChange: function(){},
+		afterChange: function(){},
+		slideshowEnd: function(){} //Triggers after all slides have been shown
+	});
+});
+
+</script>
+
+<script>
+	$(document).ready(function(){
+		$(".h_one").click(function(){
+			$(".contact_fix").toggle(2000)
+		});
+		$(".h_one2").click(function(){
+			$(".sub_fix").slideToggle(2000)
+		});
+
+	});
+</script>
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]
+        <div class="full_section">
+        	<div class="main_section">
+			
+			</div>
+        </div>
+
+		-->
+    </head>
+    <body>
+        <div class="full_section">
+        	<div class="main_section">
+				<header class="header_part fix">
+					<div class="logo_part floatleft">
+						<div class="logo_img">
+							<a href=""><img src="img/logo.png" alt="" /></a>
+						</div>
+						<div class="text_title">
+							<a href=""><h2>My website</h2></a>
+							<a href=""><p>www.my-website.com</p></a>
+						</div>
+					</div>
+					<div class="socialicon_part floatright">
+						<ul>
+							<li><a href=""><img src="img/fb.png" alt="" /></a></li>
+							<li><a href=""><img src="img/googleplus.png" alt="" /></a></li>
+							<li><a href=""><img src="img/linkdin.png" alt="" /></a></li>
+							<li><a href=""><img src="img/pinterast.png" alt="" /></a></li>
+							<li><a href=""><img src="img/youtube.png" alt="" /></a></li>
+							<li><a href=""><img src="img/twitter.png" alt="" /></a></li>
+							<li><a href=""><img src="img/tramble.png" alt="" /></a></li>
+						</ul>
+					</div>
+				</header>
+			</div>
+        </div>
+        <div class="full_section">
+        	<div class="main_section">
+				<nav class="nav_section">
+					<ul>
+						<li><a href="" id="active">Home</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Services</a></li>
+						<li><a href="">Contact</a></li>
+						<li><a href="">Blog</a></li>
+					</ul>
+				</nav>
+			</div>
+        </div>
+        <div class="full_section">
+        	<div class="main_section">
+				<div class="slider_part fix">
+					<div class="slider_left_wiget floatleft fix">
+					<ul>
+						<li><a href="">New blog post is here</a></li>
+						<li><a href="">New blog post is here</a></li>
+						<li><a href="">New blog post is here</a></li>
+						<li><a href="">New blog post is here</a></li>
+						<li><a href="">New blog post is here</a></li>
+						<li><a href="">New blog post is here</a></li>
+					</ul>
+					</div>
+					<div class="slider_middle floatleft fix">
+						<div id="slider">
+							<a href="#"><img src="img/slideshow/05.jpg" alt="" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." /></a>
+							<a href="#"><img src="img/slideshow/02.jpg" alt="" title="Nullam ante leo, consectetur eget adipiscing et." /></a>
+							<a href="#"><img src="img/slideshow/03.jpg" alt="" title="Suspendisse sit amet enim elit. Curabitur tempor consequat." /></a>
+							<a href="#"><img src="img/slideshow/04.jpg" alt="" title="Nulla faucibus luctus quam eget placerat." /></a>
+							<a href="#"><img src="img/slideshow/01.jpg" alt="" title="Phasellus aliquet viverra posuere." /></a>
+						</div>	
+					</div>
+					<div class="slider_right_post floatright fix">
+						<a href=""><img src="img/treat-cancer.jpg" alt="" /></a>
+						<p>First blog content is here.First blog content is here.First blog content is here.First blog content is here.<a href="">To be continue...</a></p>
+					</div>
+				</div>
+			</div>
+        </div>
+        <div class="full_section">
+        	<div class="main_section">
+				<div class="content_update fix">
+					<div class="content_update_left floatleft fix">
+						<h2 class="content_update_left_title">Today's View</h2>
+						<div class="content_update_left_all">
+							<a href=""><img src="img/three.jpg" alt="" /></a>
+							<div class="content_update_left_article">
+								<a href=""><h2>Nulla quis lorem neque, mattis...</h2></a>
+								<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.Nulla quis lorem neque, mattis venenatis lectus.</p>
+								<h4><a href="">0 views</a><span><a href="">Post Date & Time-</a></span></h4>
+							</div>
+						</div>
+						<div class="content_update_left_all">
+							<a href=""><img src="img/one.jpg" alt="" /></a>
+							<div class="content_update_left_article">
+								<a href=""><h2>Nulla quis lorem neque, mattis...</h2></a>
+								<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.Nulla quis lorem neque, mattis venenatis lectus.</p>
+								<h4><a href="">0 views</a><span><a href="">Post Date & Time-</a></span></h4>
+							</div>
+						</div>
+						<div class="content_update_left_all">
+							<a href=""><img src="img/two.jpg" alt="" /></a>
+							<div class="content_update_left_article">
+								<a href=""><h2>Nulla quis lorem neque, mattis...</h2></a>
+								<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.Nulla quis lorem neque, mattis venenatis lectus.</p>
+								<h4><a href="">0 views</a><span><a href="">Post Date & Time-</a></span></h4>
+							</div>
+						</div>
+						<div class="content_update_left_all">
+							<a href=""><img src="img/four.jpg" alt="" /></a>
+							<div class="content_update_left_article">
+								<a href=""><h2>Nulla quis lorem neque, mattis...</h2></a>
+								<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.Nulla quis lorem neque, mattis venenatis lectus.</p>
+								<h4><a href="">0 views</a><span><a href="">Post Date & Time-</a></span></h4>
+							</div>
+						</div>
+						<div class="content_update_left_all">
+							<a href=""><img src="img/five.jpg" alt="" /></a>
+							<div class="content_update_left_article">
+								<a href=""><h2>Nulla quis lorem neque, mattis...</h2></a>
+								<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.Nulla quis lorem neque, mattis venenatis lectus.</p>
+								<h4><a href="">0 views</a><span><a href="">Post Date & Time-</a></span></h4>
+							</div>
+						</div>
+					</div>
+					<div class="content_update_right floatright fix">
+						<h2 class="content_update_right_title">update gallary</h2>
+						<div class="content_update_right_all">
+							<a href=""><img src="img/four.jpg" alt="" /></a>
+							<div class="content_update_right_article">
+								<a href=""><h2>Nulla quis lorem neque, mattis...</h2></a>
+								<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.Nulla quis lorem neque, mattis venenatis lectus.</p>
+							</div>
+						</div>
+						<div class="content_update_right_all">
+							<a href=""><img src="img/four.jpg" alt="" /></a>
+							<div class="content_update_right_article">
+								<a href=""><h2>Nulla quis lorem neque, mattis...</h2></a>
+								<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.Nulla quis lorem neque, mattis venenatis lectus.</p>
+							</div>
+						</div>
+						<div class="content_update_right_all">
+							<a href=""><img src="img/four.jpg" alt="" /></a>
+							<div class="content_update_right_article">
+								<a href=""><h2>Nulla quis lorem neque, mattis...</h2></a>
+								<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.Nulla quis lorem neque, mattis venenatis lectus.</p>
+							</div>
+						</div>
+						<div class="content_update_right_all">
+							<a href=""><img src="img/four.jpg" alt="" /></a>
+							<div class="content_update_right_article">
+								<a href=""><h2>Nulla quis lorem neque, mattis...</h2></a>
+								<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.Nulla quis lorem neque, mattis venenatis lectus.</p>
+							</div>
+							<div class="border_erase"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+        <div class="full_section">
+        	<div class="main_section">
+				<div class="content_part fix">
+					<div class="content_left floatleft">
+						<div class="content_article_one fix">
+							<h2 class="content_article_one_title">Most Recent post</h2>
+							<div class="content_article_one_left floatleft">
+								<a href=""><img src="img/one.jpg" alt="" /></a>
+								<div class="indor_article">
+									<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.Nulla quis lorem neque, mattis venenatis lectus.</p>
+									<p class="indor_article_more"><a href="">Continue..</a></p>
+								</div>
+							</div>
+							<div class="content_article_one_left floatleft">
+								<a href=""><img src="img/two.jpg" alt="" /></a>
+								<div class="indor_article">
+									<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.Nulla quis lorem neque, mattis venenatis lectus.</p>
+									<p class="indor_article_more"><a href="">Continue..</a></p>
+								</div>
+							</div>
+							<div class="content_article_one_left floatleft">
+								<a href=""><img src="img/one.jpg" alt="" /></a>
+								<div class="indor_article">
+									<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.Nulla quis lorem neque, mattis venenatis lectus.</p>
+									<p class="indor_article_more"><a href="">Continue..</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="content_article_one fix">
+							<h2 class="content_article_one_title">Most Recent post</h2>
+							<div class="content_article_one_left floatleft">
+								<a href=""><img src="img/one.jpg" alt="" /></a>
+								<div class="indor_article">
+									<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.Nulla quis lorem neque, mattis venenatis lectus.</p>
+									<p class="indor_article_more"><a href="">Continue..</a></p>
+								</div>
+							</div>
+							<div class="content_article_one_left floatleft">
+								<a href=""><img src="img/two.jpg" alt="" /></a>
+								<div class="indor_article">
+									<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.Nulla quis lorem neque, mattis venenatis lectus.</p>
+									<p class="indor_article_more"><a href="">Continue..</a></p>
+								</div>
+							</div>
+							<div class="content_article_one_left floatleft">
+								<a href=""><img src="img/one.jpg" alt="" /></a>
+								<div class="indor_article">
+									<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.Nulla quis lorem neque, mattis venenatis lectus.</p>
+									<p class="indor_article_more"><a href="">Continue..</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="content_right floatright fix">
+						<div class="content_right_first">
+							<h2 class="content_right_title">Images Gallary</h2>			
+							<div class="image_gallary">
+								<a href=""><img src="img/three.jpg" alt="" /></a>
+								<a href=""><img src="img/four.jpg" alt="" /></a>
+								<a href=""><img src="img/five.jpg" alt="" /></a>
+								<a href=""><img src="img/two.jpg" alt="" /></a>
+							</div>
+						</div>
+						<div class="content_right_second">
+							<h2 class="popular_post_ttle">Popular post</h2>			
+							<div class="popular_post_gallary">
+								<ul>
+									<li><a href="">Nulla quis lorem neque, mattis</a></li>
+									<li><a href="">Nulla quis lorem neque, mattis</a></li>
+									<li><a href="">Nulla quis lorem neque, mattis</a></li>
+									<li><a href="">Nulla quis lorem neque, mattis</a></li>
+									<li><a href="">Nulla quis lorem neque, mattis</a></li>
+									<li><a href="">Nulla quis lorem neque, mattis</a></li>
+									<li><a href="">Nulla quis lorem neque, mattis</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+        <div class="full_section">
+        	<div class="contact_fix fix">
+				<h2>Contact</h2>
+				<h3>shahjahans0055@gmail.com</h3>
+				<h4>+8801929-880507</h4>
+				<input type="text" name="name" placeholder="Input your name... "/><br>
+				<input type="email" name="email" placeholder="Input your E-mail... "/><br>
+				<input type="submit" name="sumbit" value="submit"/>
+			</div>
+        	<div class="sub_fix fix">
+				<h2>Subscrib</h2>
+				<input type="text" name="name" placeholder="Input your name... "/><br>
+				<input type="email" name="email" placeholder="Input your E-mail... "/><br>
+				<input type="submit" name="sumbit" value="Subscribe"/>
+			</div>
+        </div>
+
+        <div class="full_section">
+        	<div class="all_click fix">
+				<h3 class="h_one">Contact</h3>
+				<h3 class="h_one2">Subscribe</h3>
+			</div>
+        </div>
+		
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Jquery Fundamental Training</title>
+	
+	<style>
+	*{margin:0;padding:0;}
+	body{background:#a18c8d}
+	.full_part{margin:0 auto; width:980px; background:#fedddf;}
+	.header_section{background:#000; height:80px; padding-left:20px;padding-right:20px;}
+	.header_section h2{color:#fff; font-size:35px; font-weight:bold; text-align:center; padding-top:20px; text-shadow: 0 3px 4px;}
+	.content_section{ height:390px; padding-left:20px;padding-right:20px;}
+	.content_section h4{font-size:20px; font-weight:bold;text-align:center;}
+	.footer_section{background:#000; height:80px; padding-left:20px;padding-right:20px;}
+	.footer_section h2{color:#fe1f34; font-size:35px; font-weight:bold;text-align:center; padding-top:20px;}
+	.para{width:700px; height:150px; background:#999;color:#fff; font-size:20px; padding:20px;margin:0 auto; border:2px solid #222; margin-top:20px;}
+	.para_inside h2{text-align:center;}
+	.para_inside p{color:#f00;}
+	</style>
+	<?php
+
+	?>
+	<script src="js/jquery.js"></script>
+	
+	<script>
+		$(document).ready(function(){
+			$("#hide").click(function(){
+				$(".para").hide(3000);
+			});
+			$("#show").click(function(){
+				$(".para").show(3000);
+			});
+			$("#toggle").click(function(){
+				$(".para").toggle(3000);
+			});
+			
+			
+		});
+	</script>
+	
+</head>
+<body>
+<div class="full_part">
+	<header class="header_section">
+		<h2>Jquery Fundamental Training</h2>
+	</header>
+	<section class="content_section">
+		<h4>Start from here</h4>
+		
+
+	<button id="hide">Hide</button>
+	<button id="show">Show</button>
+	<button id="toggle">Toggle</button>
+	
+	<div class="para">
+		<div class="para_inside">
+			<h2>This is title</h2>
+			<p>This is paragraph part.This is paragraph part.This is paragraph part.This is paragraph part.This is paragraph part.This is paragraph part.This is paragraph part.This is paragraph part.This is paragraph part.This is paragraph part.This is paragraph part.This is paragraph part.This is paragraph part.</p>
+		</div>
+
+	</div>	
+		
+	</section>
+	<footer class="footer_section">
+	<h2>SS Web School</h2>
+	</footer>
+</div>
+	
+</body>
+</html>

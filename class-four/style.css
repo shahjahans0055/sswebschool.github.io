@@ -352,3 +352,11 @@ h3 {
 .social-icon a:hover, .social-icon i:hover {
   color: #EF476F;
 }
+
+.copy-right-section {
+  background: #F7F7F7;
+  text-align: center;
+  padding: 20px 0;
+  color: #999;
+  font-size: 15px;
+}

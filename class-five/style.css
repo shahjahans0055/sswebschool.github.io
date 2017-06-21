@@ -411,9 +411,9 @@ h3 {
   width: 200px;
   margin: 0 auto;
   display: block;
+  background:#06D6A0;
+  color:#fff;
 }
 .hero-area-form-wrapper input[type="email"] {
   margin-bottom: 30px;
-  background:#06D6A0;
-  color:#fff;
 }

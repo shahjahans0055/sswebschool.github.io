@@ -73,12 +73,13 @@ a.box_btn:hover{
     padding-bottom: 20px;
     padding-top: 30px;
 }
-input[type="url"], input[type="password"], input[type="text"], textarea {
+input[type="url"], input[type="password"], input[type="text"],input[type="email"], textarea {
   border: 1px solid #efefef;
   float: left;
   margin-right: 15px;
   padding: 7px 20px;
-  width: 320px;
+  width: 300px;
+  margin-bottom:15px;
 }
 input[type="submit"], button[type="text"]{
     background: #ef476f none repeat scroll 0 0;
@@ -348,7 +349,6 @@ h3 {
 .social-icon a:hover{
   color: #EF476F;
 }
-<<<<<<< HEAD
 .social-icon a:hover i.zmdi{
 	color: #EF476F;
 }
@@ -360,6 +360,8 @@ h3 {
   display: table;
   width: 100%;
   height: 60px;
+  opacity: .3;
+  transition:.3s
 }
 .copy-right-section {
   background: #F7F7F7;
@@ -368,5 +370,50 @@ h3 {
   color: #999;
   font-size: 15px;
 }
-=======
->>>>>>> parent of f970191... class-four
+.single-logo-carousel:hover.logo-carousel-item {
+  opacity: 1;
+}
+.hero-area-form {
+  background: #fff;
+  color: #333;
+  padding: 30px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+.hero-area-form:after {
+	position: absolute;
+	background: #fff;
+	height: 100%;
+	width: 100%;
+	opacity: .3;
+	z-index: -1;
+	content:"";
+	top: 8px;
+	left: 8px;
+	border-radius: 5px;
+}
+
+.hero-area-form h3 {
+  text-align: center;
+  color: #5F5F5F;
+  font-size: 22px;
+}
+.hero-area-form p {
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.hero-area-form input {
+  width: 100%;
+}
+.hero-area-form input[type="submit"] {
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+.hero-area-form-wrapper input[type="email"] {
+  margin-bottom: 30px;
+  background:#06D6A0;
+  color:#fff;
+}
